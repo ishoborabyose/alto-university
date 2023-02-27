@@ -1,4 +1,19 @@
 import Head from "next/head";
+import { Navbar } from "@/components/Navbar";
+import { Hamburger } from "@/components/Hamburger";
+import { Spotlight } from "@/components/Spotlight";
+import { Join } from "@/components/Join";
+import { Explore } from "@/components/Explore";
+import { Important } from "@/components/Important";
+import { Schools } from "@/components/Schools";
+import { Guide } from "@/components/Guide";
+import { Building } from "@/components/Building";
+import { Community } from "@/components/Community";
+import { Studies } from "@/components/Studies ";
+import { Information } from "@/components/Information";
+import { Read } from "@/components/Read";
+import { Follow } from "@/components/Follow";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -9,7 +24,22 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+
+      <Navbar />
+      <Hamburger />
+      <Spotlight />
+      <Join />
+      <Explore />
+      <Important />
+      <Schools />
+      <Guide />
+      <Building />
+      <Community />
+      <Studies />
+      <Information />
+      <Read />
+      <Follow />
+      <Footer />
     </>
   );
 }
