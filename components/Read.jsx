@@ -3,7 +3,7 @@ import React from "react";
 export const Read = () => {
   return (
     <div className="bg-[#F1F1F1] pt-[56px] mt-[56px] sm:px-4  pb-[96px]">
-      <div className=" max-w-7xl mx-auto">
+      <div className=" max-w-[84rem] mx-auto">
         <h1 className="text-[#2d2d2d]  text-[28px] leading-[33px] mb-[16px]">
           Read about our research and donate
         </h1>
