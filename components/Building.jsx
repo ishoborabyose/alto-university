@@ -3,7 +3,7 @@ import React from "react";
 export const Building = () => {
   return (
     <div className="mt-[72px] max-w-[84rem] sm:px-4 mx-auto">
-      <div className="grid grid-cols-4 sm:grid-cols-2 gap-y-[20px] gap-x-[8px]">
+      <div className="grid grid-cols-4 sm:grid-cols-2 gap-y-[20px] sm:gap-x-2 gap-x-[16px]">
         {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => {
           return (
             <div>

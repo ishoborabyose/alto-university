@@ -3,13 +3,13 @@ import { BsArrowRight } from "react-icons/bs";
 
 export const Guide = () => {
   return (
-    <div className="mt-[56px] max-w-[86rem] mx-auto">
+    <div className="mt-[56px] sm:mt-0 max-w-[86rem] mx-auto">
       {[1, 2].map((item, index) => {
         return (
           <div>
             <div
               key={index}
-              className={`items-center pt-[30px] sm:grid sm:grid-cols-1   ${
+              className={`items-center pt-[76px] sm:grid sm:grid-cols-1   ${
                 index == 1 || index == 2 ? "flex flex-row-reverse  " : "flex "
               }`}
             >
@@ -26,7 +26,7 @@ export const Guide = () => {
                   Aalto University's campus in Otaniemi is a renewable and
                   living environment for research, art, learning,
                   entrepreneurship and housing. The campus area inspires people
-                  to collaborate, try out new ideas and innovate together.
+                  to collaborate
                 </p>
                 <div>
                   <span className="text-[#2d232d] group cursor-pointer  hover:bg-[#e3e3e3] mb-[8px] flex items-center text-center gap-1 font-normal text-[18px] leading-[22px] underline ">

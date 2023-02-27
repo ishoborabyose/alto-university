@@ -11,16 +11,16 @@ export const Schools = () => {
         Scientific research and artistic activities are carried out at six
         schools and their departments and units.
       </p>
-      <div className="grid sm:grid-cols-1 grid-cols-2 mt-[24px] gap-6">
+      <div className="grid sm:grid-cols-1 grid-cols-2 mt-[24px] sm:gap-0 gap-3">
         {[1, 2, 3, 4, , 5, 6].map((item) => {
           return (
-            <div className="border-2 group border-[#2d2d2d] flex cursor-pointer ">
-              <div className="mx-[2.4rem] mt-[3rem] sm:mx-2 col-span-2">
-                <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]   text-[21px]  sm:text-[21px] sm:leading-[25px] leading-[25px] font-normal mt-[1.6rem]">
+            <div className="border-2 group border-[#2d2d2d] sm:h-[60%] flex cursor-pointer ">
+              <div className="mx-[2.4rem] mt-[3rem] sm:mt-3 sm:mx-2 col-span-2">
+                <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]   text-[21px]  sm:text-[18px] sm:leading-[21px] leading-[25px] font-normal sm:mt-3 mt-[1.6rem]">
                   School of Arts, Design and Architecture
                 </h3>
-                <p className="text-[18px] sm:hidden leading-[26px]  text-[2d2d2d] font-normal">
-                  The school of arts , design and architecture is one of the ...
+                <p className="text-[18px] sm:hidden leading-[26px] mt-[0.5rem] text-[2d2d2d] font-normal">
+                  The school of arts , design and architecture is of the ...
                 </p>
               </div>
               <img

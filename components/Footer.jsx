@@ -19,7 +19,7 @@ export const Footer = () => {
                     <h4 className="leading-[25px] mb-[8px] mt-[16px] text-[21px] text-[#2d2d2d]">
                       Follow us:
                     </h4>
-                    <div className="grid grid-cols-7">
+                    <div className="grid grid-cols-7 sm:mt-6">
                       {[1, 2, 3, 4, 5, 6, 7].map((item) => {
                         return (
                           <div>
@@ -31,7 +31,7 @@ export const Footer = () => {
                   </div>
                 </div>
 
-                <ul className="text-[16px] leading-[19px] text-[#2d2d2d] ">
+                <ul className="text-[16px] sm:space-y-3 sm:mt-14 leading-[19px] text-[#2d2d2d] ">
                   <li className="leading-[25px] text-[21px] mb-[8px] text-[#2d2d2d]">
                     Quicklinks
                   </li>
@@ -59,7 +59,7 @@ export const Footer = () => {
                   <li className="underline hover:bg-[#e3e3e3]  mb-1">
                     IT Department
                   </li>
-                  <li className="leading-[25px] mb-[8px] text-[21px] text-[#2d2d2d]">
+                  <li className="leading-[25px] sm:my-8 mb-[8px] text-[21px] text-[#2d2d2d]">
                     Latest
                   </li>
                   <li className="underline hover:bg-[#e3e3e3]  mb-1">
@@ -101,7 +101,7 @@ export const Footer = () => {
                 </ul>
 
                 <div>
-                  <h1 className="text-[28px] mb-[16px] leading-[33px] text-[#2d2d2d]">
+                  <h1 className="text-[28px] mb-[16px] sm:border-t-2 sm:border-t-black sm:p-4 sm:mt-4 leading-[33px] text-[#2d2d2d]">
                     Together towards a better world.
                   </h1>
                   <p className="text-[#2d2d2d] leading-[26px] mb-[24px] text-[18px] font-normal">

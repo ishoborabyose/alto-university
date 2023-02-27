@@ -53,7 +53,7 @@ export const Hamburger = () => {
         className="w-full"
       />
 
-      <div className="bg-black py-[24px] sm:hidden px-[40px] absolute sm:relative sm:left-0 sm:-bottom-0 left-32 -bottom-20 w-[680px] ">
+      <div className="bg-black py-[24px] sm:hidden px-[40px] absolute sm:relative sm:left-0 sm:-bottom-0 left-10 -bottom-10 w-[680px] ">
         <h2 className="text-white text-[36px] leading-[42px] font-normal mb-[16px]">
           Aalto student – New Student Guide is here to replace Into
         </h2>
@@ -79,8 +79,8 @@ export const Hamburger = () => {
 
         <div className=" flex justify-between mt-[16px] ">
           <IoIosArrowDropleft className="h-[32px] w-[32px] hover:-translate-y-1 cursor-pointer  text-white" />
-          <div className="flex gap-[37px] justify-end ">
-            <div className="flex items-center sm:hidden">
+          <div className="flex gap-[37px]  ">
+            <div className="flex items-center ">
               {[1, 2, 3, 4].map((item, index) => {
                 return (
                   <div

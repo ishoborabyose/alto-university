@@ -13,7 +13,7 @@ export const Read = () => {
           investment in a better future.
         </p>
 
-        <div className="grid sm:grid-cols-1 grid-cols-2 mt-[24px] gap-6">
+        <div className="grid sm:grid-cols-1 grid-cols-2 mt-[24px] gap-3">
           {[1, 2].map((item) => {
             return (
               <div className="bg-white cursor-pointer group">
@@ -23,10 +23,10 @@ export const Read = () => {
                 />
 
                 <div className="mx-[2.4rem] sm:mx-2">
-                  <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]  text-[28px] leading-[33px] font-normal mt-[1.6rem]">
+                  <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]  text-[21px] leading-[25px] font-normal mt-[1.6rem]">
                     Research & Arts
                   </h3>
-                  <p className="text-[21px] leading-[25px] mt-[2.5rem] text-[#2d2d2d] font-normal mb-[1.6rem]">
+                  <p className="text-[18px] leading-[21px] mt-[1.5rem] text-[#2d2d2d] font-normal mb-[1.6rem]">
                     Our research focuses on seven key areas combining four core
                     competences in the fields of ICT, materials, arts, design
                     and business together with three grand challenges related to

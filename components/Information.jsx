@@ -2,12 +2,12 @@ import React from "react";
 
 export const Information = () => {
   return (
-    <div className="mt-[40px] max-w-[84rem] mx-auto sm:px-4">
+    <div className="mt-[40px] py-[30px] max-w-[84rem] mx-auto sm:px-4">
       <h1 className="text-[#2d2d2d] text-[28px] leading-[33px] mb-[16px]">
         Explore our six schools
       </h1>
 
-      <div className="grid sm:grid-cols-1 grid-cols-2 mt-[24px] gap-6">
+      <div className="grid sm:grid-cols-1 grid-cols-2 mt-[24px] gap-3">
         {[1, 2].map((item) => {
           return (
             <div className="border-2 group border-[#2d2d2d] flex cursor-pointer ">
@@ -15,8 +15,8 @@ export const Information = () => {
                 <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]   text-[21px]  sm:text-[21px] sm:leading-[25px] leading-[25px] font-normal mt-[1.6rem]">
                   School of Arts, Design and Architecture
                 </h3>
-                <p className="text-[18px] sm:hidden leading-[26px]  text-[2d2d2d] font-normal">
-                  The school of arts , design and architecture is one of the ...
+                <p className="text-[18px] sm:hidden leading-[26px] mt-[0.5rem]  text-[2d2d2d] font-normal">
+                  The school of arts , design and architecture is of the ...
                 </p>
               </div>
               <img
