@@ -23,7 +23,7 @@ export const Read = () => {
                 />
 
                 <div className="mx-[2.4rem] sm:mx-2">
-                  <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]  text-[21px] leading-[25px] font-normal mt-[1.6rem]">
+                  <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]   text-[21px] leading-[25px] font-normal mt-[1.6rem]">
                     Research & Arts
                   </h3>
                   <p className="text-[18px] leading-[21px] mt-[1.5rem] text-[#2d2d2d] font-normal mb-[1.6rem]">

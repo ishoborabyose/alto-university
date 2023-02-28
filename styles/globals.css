@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.anime {
+    animation-name: rotate;
+    animation-duration: 100ms;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(500px);
+    }
+}
+
+.openmodel {
+    animation-name: model;
+    animation-duration: 400ms;
+    
+}
+
+@keyframes model {
+    0% {
+        transform: translateY(-500px);
+    }
+}
+
