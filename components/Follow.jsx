@@ -9,11 +9,11 @@ export const Follow = () => {
             Follow us
           </h1>
           <div className="flex gap-4 sm:flex-col justify-center mt-2">
-            {[1, 2, 3, 4].map((item) => {
+            {["facebook", "twitter", "instagram", "linkedin"].map((item) => {
               return (
                 <div>
                   <span className=" hover:bg-white text-[36px] sm:text-3xl sm:font-semibold sm:text-[18px] sm:leading-[21px] leading-[42px] font-normal underline">
-                    Facebook
+                    {item}
                   </span>
                 </div>
               );

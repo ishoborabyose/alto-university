@@ -6,7 +6,7 @@ export const Join = () => {
       <div className=" max-w-[84rem] mx-auto sm:px-3">
         <div className="flex justify-between">
           <h1 className="text-[#2d2d2d] text-[28px] leading-[33px] mb-[16px]">
-            Spotlight{" "}
+            Join our many events
           </h1>
           <button className="text-[#2d2d2d] hover:bg-[#ffcd00] bg-white hover:text-[#2d2d2d] sm:hidden text-center py-[10px] px-[31px] leading-[18px] border border-[#2d2d2d] rounded-full text-[16px]">
             See All Events

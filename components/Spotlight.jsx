@@ -23,25 +23,46 @@ export const Spotlight = () => {
         .
       </p>
       <div className="grid sm:grid-cols-1 grid-cols-3 mt-[24px] gap-3">
-        {[1, 2, 3].map((item) => {
+        {[
+          {
+            img: "https://www.aalto.fi/sites/g/files/flghsv161/files/styles/2_3_690w_300h_d/public/2023-02/PXL_20220622_103655210_0.jpg?h=419eefd5&itok=NNEygIOY",
+            title: "Shrinking from the heat",
+            description: "Reactive Fabrics Responds to changes in temperature",
+            date: " 21.2.2023",
+          },
+          {
+            img: "https://www.aalto.fi/sites/g/files/flghsv161/files/styles/2_3_819w_356h_d/public/2023-02/pipot4_1.jpg?h=a0adc964&itok=CSovV1uP",
+            title: "Knit an Aalto hat for yourself or a friend!",
+            description:
+              "Follow Marja Niemi and Outi Elina Kansanen's knitting pattern to make a lovely gift for someonespecial",
+            date: " 13.2.2023",
+          },
+          {
+            img: "https://www.aalto.fi/sites/g/files/flghsv161/files/styles/2_3_819w_356h_d/public/2022-03/SLUSH2019_21-11-2019_photo_Mikko_Raskinen_038.jpg?h=41f55a5b&itok=L4c2LyML",
+            title: "Aalto Startup Center makes global top",
+            description:
+              "three in 2021-2022 university business accelerator ranking UBI Global World Benchmark Study ranks top",
+            date: "25.1.2023 ",
+          },
+        ].map((item, index) => {
           return (
-            <div className="border-2 group border-[#2d2d2d] cursor-pointer">
-              <img
-                src="https://www.aalto.fi/sites/g/files/flghsv161/files/styles/2_3_690w_300h_d/public/2023-02/PXL_20220622_103655210_0.jpg?h=419eefd5&itok=NNEygIOY"
-                className="group-hover:opacity-80 "
-              />
+            <div
+              key={index}
+              className="border-2 group border-[#2d2d2d] cursor-pointer"
+            >
+              <img src={item.img} className="group-hover:opacity-80 " />
 
               <div className="mx-[2.4rem] sm:mx-3 pb-3">
                 <h3 className="text-[#2d2d2d] group-hover:bg-[#e3e3e3]  text-[21px] leading-[25px] font-normal mt-[1rem]">
-                  Shrinking from the heat
+                  {item.title}
                 </h3>
                 <p className="text-[18px] leading-[21px] mt-[2rem] text-[#2d2d2d] font-normal">
-                  Reactive Fabrics Responds to changes in temperature{" "}
+                  {item.description}
                 </p>
                 <p className="text-sm mt-[32px]  text-[#2d2d2d] ">
                   {" "}
                   <span className="border-r border-r-black pr-1">
-                    21.2.2023
+                    {item.date}
                   </span>{" "}
                   News
                 </p>
